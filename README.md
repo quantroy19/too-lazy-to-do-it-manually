@@ -48,17 +48,6 @@ Shortcut options:
 - Bind `script/call_auto_start.sh` to a hotkey or gesture (see gesture config below).
 - Symlink any script into your `$PATH` if you want to call it from elsewhere.
 
-### Script Behaviors at a Glance
-
-| Script                   | What it Automates                                                                    | Key Customization                                                        |
-| ------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| `auto_start.sh`          | Menu for project, worker, personal, system actions                                   | Update the `~/<PATH>/...` jump targets                                   |
-| `auto_start_project.sh`  | Terminator splits, `make devrun`, `make devshnode`, `make devshphp`, launches Chrome | Set `ProjectPath`, adjust Chrome click coords                            |
-| `auto_start_worker.sh`   | Runs sequential Go services inside `project-worker-1` container tabs, opens VS Code  | Set `ProjectPath`, ensure container name & Go file list match your stack |
-| `auto_start_personal.sh` | Opens a terminal and VS Code in your personal dir                                    | Set `ProjectPath`                                                        |
-| `auto_visitor.sh`        | Starts Firefox, types URL, scrolls the page                                          | Replace `URL` value                                                      |
-| `call_auto_start.sh`     | Opens Terminator then runs `auto_start.sh`                                           | Update absolute path                                                     |
-
 ## Using the `libinput-gestures/` Pack
 
 1. Install `libinput-gestures` and ensure your user is in the `input` group: `sudo gpasswd -a $USER input`.
