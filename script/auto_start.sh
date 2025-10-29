@@ -10,13 +10,13 @@ read -p "Enter the number of your choice: " choice
 
 case $choice in
   1)
-    ~/Code/personal/script_auto/auto_start_project.sh
+    ~/<PATH>/auto_start_project.sh
     ;;
   2)
-    ~/Code/personal/script_auto/auto_start_worker.sh
+    ~/<PATH>/auto_start_worker.sh
     ;;
   3)
-    ~/Code/personal/script_auto/auto_start_personal.sh
+    ~/<PATH>/auto_start_personal.sh
     ;;
   4)
     systemctl reboot -i
