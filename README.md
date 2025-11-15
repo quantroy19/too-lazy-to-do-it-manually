@@ -72,6 +72,8 @@ Highlights in the shipped config:
 - 4-finger swipes trigger dev tooling (hard refresh, DevTools, lock screen) and call the automation menu.
 - Pinch gestures manage window state and media playback.
 
+
+[Read more Vietnamese instructions](https://viblo.asia/p/kham-pha-libinput-gestures-cong-cu-tuy-chinh-cu-chi-touchpad-tren-linux-oW4oeezlLml)
 ## Demo
 
-![Auto start project](./gif/auto_start_project.gif)
+![libinput-gestures](./demo/demo_libinput-gestures.webm)
