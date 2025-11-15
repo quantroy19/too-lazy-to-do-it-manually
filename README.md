@@ -65,4 +65,4 @@ Highlights in the shipped config:
 [Read more Vietnamese instructions](https://viblo.asia/p/kham-pha-libinput-gestures-cong-cu-tuy-chinh-cu-chi-touchpad-tren-linux-oW4oeezlLml)
 ## Demo
 
-![libinput-gestures](./demo/demo_libinput-gestures.webm)
+![libinput-gestures](./demo/demo_libinput-gestures.gif)
